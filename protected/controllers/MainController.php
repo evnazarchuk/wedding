@@ -28,6 +28,20 @@
 			$data = Catalog::model()->findAll($criteria);
 			$this->render('search', array('data' => $data));
 		}
+		
+		
+		public function actionFeedback(){
+			$user = $_POST['name'];
+			$email = $_POST['email'];
+			$phone = $_POST['phone'];
+			$msg = $_POST['msg'];
+			//Отправляем письмо администрации магазина
+			$email = Yii::app()->email;
+			$email->to = 'nazarchuk87@gmail.com';
+			$email->subject = 'Заказ обратного звонка';
+			$email->message = "Здравствуйте!<br>Поступил заказ обратного звонка с сайта.<br>Номер телефона клиента:<b>".$phone."<b><br>Сообщение:<br>".$msg;
+			$email->send();
+		}
 
 
 

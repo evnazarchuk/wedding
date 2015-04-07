@@ -81,6 +81,10 @@ return array(
 				*/
 			),
 		),
+		'email'=>array(
+			'class'=>'application.extensions.email.Email',
+			'delivery'=>'php', //Will use the php mailing function.
+		)
 	),
 
 	// application-level parameters that can be accessed

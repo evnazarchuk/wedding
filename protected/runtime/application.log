@@ -3328,3 +3328,273 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2015/04/08 00:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 00:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:52:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 00:52:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:53:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:53:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 00:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 00:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 00:58:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 00:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 01:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:03:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 01:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:05:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:05:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 01:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/08 01:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/08 01:22:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---

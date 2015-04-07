@@ -17,7 +17,7 @@ jQuery(function ($) {
 		init: function () {
 			$("input.osx, a.osx").click(function (e) {
 				e.preventDefault();	
-
+				
 				$("#osx-modal-content").modal({
 					overlayId: 'osx-overlay',
 					containerId: 'osx-container',
