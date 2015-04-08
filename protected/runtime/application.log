@@ -3598,3 +3598,12 @@ Stack trace:
 REQUEST_URI=/css/images/img04.gif
 HTTP_REFERER=http://wedding.loc/css/style.css
 ---
+2015/04/08 01:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
