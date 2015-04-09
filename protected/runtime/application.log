@@ -3607,3 +3607,159 @@ Stack trace:
 REQUEST_URI=/images/img02.gif
 HTTP_REFERER=http://wedding.loc/css/style.css
 ---
+2015/04/09 12:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/09 12:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/09 12:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/09 13:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/09 13:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/09 13:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/09 13:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/img02.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/img02.gi...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/img02.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/09 13:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/09 13:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "css/images/img04.gif".' in D:\OpenServer\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/img0...')
+#1 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/img04.gif
+HTTP_REFERER=http://wedding.loc/css/style.css
+---
+2015/04/09 13:04:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('feedback')
+#4 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/feedback')
+#5 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/main/feedback/
+HTTP_REFERER=http://wedding.loc/?id=5
+---
+2015/04/09 13:04:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('feedback')
+#4 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/feedback')
+#5 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/main/feedback/
+HTTP_REFERER=http://wedding.loc/?id=5
+---
+2015/04/09 13:04:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('feedback')
+#4 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/feedback')
+#5 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/main/feedback/
+HTTP_REFERER=http://wedding.loc/?id=5
+---
+2015/04/09 13:04:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('feedback')
+#4 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/feedback')
+#5 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/main/feedback/
+HTTP_REFERER=http://wedding.loc/?id=5
+---
+2015/04/09 13:05:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('feedback')
+#4 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/feedback')
+#5 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/main/feedback/
+HTTP_REFERER=http://wedding.loc/?id=5
+---
+2015/04/09 13:05:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in D:\OpenServer\domains\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\OpenServer\domains\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\OpenServer\domains\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\OpenServer\domains\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(282): CController->run('feedback')
+#4 D:\OpenServer\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/feedback')
+#5 D:\OpenServer\domains\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\OpenServer\domains\wedding.loc\www\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/main/feedback/
+HTTP_REFERER=http://wedding.loc/?id=5
+---

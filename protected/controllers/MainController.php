@@ -35,12 +35,15 @@
 			$email = $_POST['email'];
 			$phone = $_POST['phone'];
 			$msg = $_POST['msg'];
+			if(empty($user) || empty($email) || empty($phone)) return false;
 			//Отправляем письмо администрации магазина
 			$email = Yii::app()->email;
 			$email->to = 'nazarchuk87@gmail.com';
 			$email->subject = 'Заказ обратного звонка';
 			$email->message = "Здравствуйте!<br>Поступил заказ обратного звонка с сайта.<br>Номер телефона клиента:<b>".$phone."<b><br>Сообщение:<br>".$msg;
-			$email->send();
+			if($email->send()){
+				die(json_encode('Спасибо что заказали обратный звонок, наш оператор свяжится с Вами в ближайшее время.'));
+			}
 		}
 
 

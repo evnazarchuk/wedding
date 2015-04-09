@@ -49,6 +49,7 @@ function feedback(){
 		data: {name: name, email: email, msg:msg, phone:phone}, //Данные которые отправляем
 		success: function (data) {//ajax ответ
 			alert(data);
+			window.location.reload();
 		}
 	});
 	return false;
