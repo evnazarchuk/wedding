@@ -42,6 +42,10 @@ function feedback(){
 	var email = $("#user_email").val();//Получаем email
 	var msg	= $('#msg').val();
 	var phone	= $('#user_phone').val();
+	if(name == "" || email == "" || phone == ""){
+		alert("Поля имя,email и телефон не могут быть пустыми!");
+		return false;
+	}
 	$.ajax({//ajax запрос
 		type: 'POST', //Тип
 		url: '/main/feedback/', //Куда отправляем запрос
