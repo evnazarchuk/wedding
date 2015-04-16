@@ -28,21 +28,44 @@
 			$data = Catalog::model()->findAll($criteria);
 			$this->render('search', array('data' => $data));
 		}
-		
-		
-		public function actionFeedback(){
+
+
+
+		public function actionFeedback() {
 			$user = $_POST['name'];
 			$email = $_POST['email'];
 			$phone = $_POST['phone'];
 			$msg = $_POST['msg'];
-			if(empty($user) || empty($email) || empty($phone)) return false;
+			if (empty($user) || empty($email) || empty($phone))
+				return false;
 			//Отправляем письмо администрации магазина
 			$email = Yii::app()->email;
 			$email->to = 'nazarchuk87@gmail.com';
 			$email->subject = 'Заказ обратного звонка';
-			$email->message = "Здравствуйте!<br>Поступил заказ обратного звонка с сайта.<br>Номер телефона клиента:<b>".$phone."<b><br>Сообщение:<br>".$msg;
-			if($email->send()){
+			$email->message = "Здравствуйте!<br>Поступил заказ обратного звонка с сайта.<br>Номер телефона клиента:<b>" . $phone . "<b><br>Сообщение:<br>" . $msg;
+			if ($email->send()) {
 				die(json_encode('Спасибо что заказали обратный звонок, наш оператор свяжится с Вами в ближайшее время.'));
+			}
+		}
+
+
+
+		public function actionCorrection_dresses() {
+			if (!empty($_POST)) {
+				$user = $_POST['name'];
+				$phone = $_POST['phone'];
+				if (empty($user) || empty($phone))
+					return false;
+				//Отправляем письмо администрации магазина
+				$email = Yii::app()->email;
+				$email->to = 'nazarchuk87@gmail.com';
+				$email->subject = 'Заказ обратного звонка';
+				$email->message = "Здравствуйте!<br>Поступил заказ на коррекцию и пошив платья.<br>Имя:<br>" . $user."<br>Номер телефона клиента:<b>" . $phone . "<b><br>";
+				if ($email->send()) {
+					die(json_encode('Спасибо за заказ услуги, наш оператор свяжится с Вами в ближайшее время.'));
+				}
+			} else {
+				$this->render('correction_dresses');
 			}
 		}
 

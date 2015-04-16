@@ -37,12 +37,12 @@ function add_cart() {//Добавление в корзину
 	});
 	return false;
 }
-function feedback(){
+function feedback() {
 	var name = $("#user_name").val();//Получаем имя
 	var email = $("#user_email").val();//Получаем email
-	var msg	= $('#msg').val();
-	var phone	= $('#user_phone').val();
-	if(name == "" || email == "" || phone == ""){
+	var msg = $('#msg').val();
+	var phone = $('#user_phone').val();
+	if (name == "" || email == "" || phone == "") {
 		alert("Поля имя,email и телефон не могут быть пустыми!");
 		return false;
 	}
@@ -50,11 +50,32 @@ function feedback(){
 		type: 'POST', //Тип
 		url: '/main/feedback/', //Куда отправляем запрос
 		dataType: 'JSON', //Тип данных которые получаем
-		data: {name: name, email: email, msg:msg, phone:phone}, //Данные которые отправляем
+		data: {name: name, email: email, msg: msg, phone: phone}, //Данные которые отправляем
 		success: function (data) {//ajax ответ
 			alert(data);
 			window.location.reload();
 		}
 	});
 	return false;
+}
+function correction_dresses(param) {
+	param || 0;
+	if (param) {
+		window.location.href = "/main/correction_dresses";
+	} else {
+		var name = $("#name").val();//Получаем имя
+		var phone = $('#phone').val();
+		$.ajax({//ajax запрос
+			type: 'POST', //Тип
+			url: '/main/correction_dresses', //Куда отправляем запрос
+			dataType: 'JSON', //Тип данных которые получаем
+			data: {name: name, phone: phone}, //Данные которые отправляем
+			success: function (data) {//ajax ответ
+				alert(data);
+				window.location.reload();
+			}
+		});
+		return false;
+	}
+
 }

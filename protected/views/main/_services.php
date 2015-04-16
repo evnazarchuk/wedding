@@ -1,5 +1,8 @@
 <div align="center">
 	<input style="width:auto; height:auto; background:#980F39; color:ffffff" id="x" type="submit" value="Обратная связь"  class="osx"/>
+</div><br />
+<div align="center">
+	<input style="width:auto; height:auto; background:#980F39; color:ffffff" id="x_1" type="submit" value="Коррекция и пошив платьев" onclick="correction_dresses(1);"/>
 </div>
 <div id="osx-modal-content">
 	<div id="osx-modal-title">Написать нам</div>

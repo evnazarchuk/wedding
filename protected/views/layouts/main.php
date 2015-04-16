@@ -55,7 +55,7 @@
 </div>
 <!-- end page -->
 <div id="footer">
-	<div align = "center">&copy;2014</div>
+	<div align = "center">&copy;2015&nbsp;<a href="http://forum.wedding.loc">Форум</a></div>
 </div>
 </body>
 </html>	
